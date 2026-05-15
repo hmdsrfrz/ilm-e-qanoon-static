@@ -1,0 +1,86 @@
+[
+  {
+    "id": "93a52144-8592-4325-a701-81d24c4f5651",
+    "filename": "code_of_civil_procedure.pdf",
+    "file_type": "pdf",
+    "file_size": 2281447,
+    "category": "procedural_law",
+    "user_id": "secy_main",
+    "file_hash": "c51d194bfc14f076769f266db7efabc1901f1de2182da89c8f0ef82d92844b33",
+    "bucket_id": "procedural_law",
+    "status": "ready",
+    "uploaded_at": "2026-05-13T19:49:38.711066+00:00"
+  },
+  {
+    "id": "db057212-dcdd-49fd-b7eb-94e27a61f60d",
+    "filename": "code_of_criminal_procedures.pdf",
+    "file_type": "pdf",
+    "file_size": 3198535,
+    "category": "procedural_law",
+    "user_id": "secy_main",
+    "file_hash": "8fabbfd259b4604e343107e3c7c45680287c599572917cbfddafb6d21e3b6b40",
+    "bucket_id": "procedural_law",
+    "status": "ready",
+    "uploaded_at": "2026-05-13T19:51:39.220967+00:00"
+  },
+  {
+    "id": "df0fc040-f9a6-4f94-8350-cb7c806c708d",
+    "filename": "muslim_family_laws_ordinance.pdf",
+    "file_type": "pdf",
+    "file_size": 323070,
+    "category": "family_law",
+    "user_id": "secy_main",
+    "file_hash": "c821bbcd9b3c79e2559d4334398a9a120ed4d266f6fe4deccd8c3047b8260440",
+    "bucket_id": "family_law",
+    "status": "ready",
+    "uploaded_at": "2026-05-13T21:45:48.591773+00:00"
+  },
+  {
+    "id": "4900bba3-f20c-4b3f-972c-4f26b851a3a3",
+    "filename": "rule_of_business.pdf",
+    "file_type": "pdf",
+    "file_size": 1002967,
+    "category": "federal_admin",
+    "user_id": "secy_main",
+    "file_hash": "9776e4472c11a86dea37e7eff72fed9079d0c14d3619c0d96ae2bfdda40b5b34",
+    "bucket_id": "federal_admin",
+    "status": "ready",
+    "uploaded_at": "2026-05-13T21:46:10.917864+00:00"
+  },
+  {
+    "id": "d555f02b-2464-4f75-9153-8e4ecec8f927",
+    "filename": "kpk_local_government_act.pdf",
+    "file_type": "pdf",
+    "file_size": 348666,
+    "category": "local_govt",
+    "user_id": "secy_main",
+    "file_hash": "12f08db511101f04bde14f386bf0371f6b2b69332649468947a723e5be8ad331",
+    "bucket_id": "local_govt",
+    "status": "ready",
+    "uploaded_at": "2026-05-13T22:04:01.399851+00:00"
+  },
+  {
+    "id": "d707b07e-e7f3-4dac-aa78-d9e09165bd4f",
+    "filename": "Balochistan_local_government_act.pdf",
+    "file_type": "pdf",
+    "file_size": 383633,
+    "category": "local_govt",
+    "user_id": "secy_main",
+    "file_hash": "b52770a73632a4001e7107d3224ca5405703e168428501a5dbc7f6af7214ab30",
+    "bucket_id": "local_govt",
+    "status": "ready",
+    "uploaded_at": "2026-05-13T22:22:25.310655+00:00"
+  },
+  {
+    "id": "3d3b6306-0874-4b2c-b946-184dd6ec8ae2",
+    "filename": "pak_constitution.pdf",
+    "file_type": "pdf",
+    "file_size": 1293434,
+    "category": "constitution",
+    "user_id": "secy_main",
+    "file_hash": "140aefc49ca24106f8a098418b420d8ae45683799e890ea550da6858d8d10e48",
+    "bucket_id": "constitution",
+    "status": "ready",
+    "uploaded_at": "2026-05-13T22:26:04.175853+00:00"
+  }
+]

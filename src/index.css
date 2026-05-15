@@ -1,0 +1,100 @@
+@import "tailwindcss";
+@config "../tailwind.config.ts";
+
+@layer base {
+  :root {
+    --pk-paper:        #F5F0E8;
+    --pk-ink:          #1a1a1a;
+    --pk-green:        #009942;
+    --pk-black:        #0a0a0a;
+    --pk-muted:        #9A8D80;
+    --pk-paper-border: #D4CFC7;
+  }
+
+  html,
+  body {
+    height: 100%;
+    overflow: hidden;  /* scroll lives ONLY inside LandingPage's inner div */
+    margin: 0;
+    padding: 0;
+  }
+
+  #root {
+    height: 100%;
+    overflow: hidden;
+  }
+
+  body {
+    background: var(--pk-black);
+    color: var(--pk-paper);
+    font-family: 'IBM Plex Mono', 'Courier New', monospace;
+    font-size: 14px;
+    line-height: 1.7;
+    overflow-x: hidden;
+  }
+
+  /* Text selection — government stamp */
+  ::selection {
+    background: #009942;
+    color: #F5F0E8;
+  }
+}
+
+/* Paper surface — landing page */
+.surface-paper {
+  background-color: #F5F0E8;
+  color: #1a1a1a;
+}
+
+/* Archive terminal surface — chat */
+.surface-archive {
+  background-color: #0a0a0a;
+  color: #F5F0E8;
+}
+
+/* Grid texture for chat — same as existing SECY grid but constitutional colors */
+.archive-grid::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(rgba(0,153,66,0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,153,66,0.04) 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+/* Ticker — no-wrap for horizontal scroll */
+.ticker-inner {
+  display: flex;
+  white-space: nowrap;
+  width: max-content;
+}
+
+/* Scan line animation for chat thinking state */
+.scan-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #009942, transparent);
+  animation: scanLine 1.8s linear infinite;
+}
+
+@keyframes scanLine {
+  0%   { transform: translateX(-100%); opacity: 0.8; }
+  100% { transform: translateX(100vw);  opacity: 0; }
+}
+
+/* Used by status dots */
+@keyframes pulseDot {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0.15; }
+}
+
+@keyframes ticker {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}

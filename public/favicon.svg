@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="5" fill="#0a0a0a"/>
+  <!-- Vertical post -->
+  <rect x="15.5" y="5.5" width="1" height="20" fill="#009942"/>
+  <!-- Base -->
+  <rect x="11" y="24" width="10" height="1.8" rx="0.9" fill="#009942"/>
+  <!-- Crossbar -->
+  <rect x="6.5" y="9" width="19" height="1" rx="0.5" fill="#009942"/>
+  <!-- Left chain -->
+  <line x1="7.5" y1="10" x2="7.5" y2="14" stroke="#009942" stroke-width="0.9" stroke-linecap="round"/>
+  <!-- Right chain -->
+  <line x1="24.5" y1="10" x2="24.5" y2="14" stroke="#009942" stroke-width="0.9" stroke-linecap="round"/>
+  <!-- Left pan (arc) -->
+  <path d="M5 14 Q7.5 17 10 14" stroke="#009942" stroke-width="1" fill="none" stroke-linecap="round"/>
+  <!-- Right pan (arc) -->
+  <path d="M22 14 Q24.5 17 27 14" stroke="#009942" stroke-width="1" fill="none" stroke-linecap="round"/>
+</svg>
